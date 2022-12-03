@@ -1,0 +1,1468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1e252d778c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Udemy</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="assets/udemy-logo.png" width="100px" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Categories</a
+              >
+            </li>
+            <li class="nav-item">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search for anything"
+                  aria-label="Search"
+                />
+              </form>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Udemy Business</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Teach on Udemy</a
+              >
+            </li>
+
+            <i class="fa fa-shopping-cart"></i>
+
+            <li class="nav-item">
+              <button class="btn light">Login</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn dark">Sign up</button>
+            </li>
+
+            <i class="fa fa-globe"></i>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-caption">
+          <h1>Black Friday Sale ends tonight.</h1>
+          <p>
+            Don’t miss the chance to create your next opportunity with courses
+            as low as ₦2,500.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="info">
+        <h2>A broad selection of courses</h2>
+        <p>
+          Choose from 213,000 online video courses with new additions published
+          every month
+        </p>
+      </div>
+
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button
+            class="nav-link active"
+            id="nav-python-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-python"
+            type="button"
+            role="tab"
+            aria-controls="nav-python"
+            aria-selected="true"
+          >
+            Python
+          </button>
+          <button
+            class="nav-link"
+            id="nav-excel-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-excel"
+            type="button"
+            role="tab"
+            aria-controls="excel"
+            aria-selected="false"
+          >
+            Excel
+          </button>
+          <button
+            class="nav-link"
+            id="nav-web-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-web"
+            type="button"
+            role="tab"
+            aria-controls="nav-web"
+            aria-selected="false"
+          >
+            Web Development
+          </button>
+          <button
+            class="nav-link"
+            id="nav-js-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-js"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
+            JavaScript
+          </button>
+          <button
+            class="nav-link"
+            id="nav-ds-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-ds"
+            type="button"
+            role="tab"
+            aria-controls="nav-ds"
+            aria-selected="false"
+          >
+            Data Science
+          </button>
+          <button
+            class="nav-link"
+            id="nav-aws-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-aws"
+            type="button"
+            role="tab"
+            aria-controls="nav-aws"
+            aria-selected="false"
+          >
+            AWS Certification
+          </button>
+          <button
+            class="nav-link"
+            id="nav-drawing-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-drawing"
+            type="button"
+            role="tab"
+            aria-controls="nav-drawing"
+            aria-selected="false"
+          >
+            Drawing
+          </button>
+        </div>
+      </nav>
+
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-python"
+          role="tabpanel"
+          aria-labelledby="nav-python-tab"
+        >
+          <div>
+            <h3>Expand your career opportunities with Python</h3>
+            <p>
+              Take one of Udemy’s range of Python courses and learn how to code
+              using this incredibly useful language. Its simple syntax and
+              readability makes Python perfect for Flask, Django, data science,
+              and machine learning. You’ll learn how to build everything from
+              games to sites to apps. Choose from a range of courses that will
+              appeal to...
+            </p>
+            <button>Explore Python</button>
+          </div>
+
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="nav-excel"
+          role="tabpanel"
+          aria-labelledby="nav-excel-tab"
+        >
+          <div>
+            <h3>Analyze and visualize data with Excel</h3>
+            <p>
+              Take a Microsoft Excel course from Udemy, and learn how to use
+              this industry-standard software. Real-world experts will show you
+              the basics like how to organize data into sheets, rows and
+              columns, and advanced techniques like creating complex dynamic
+              formulas. Both small businesses and large companies use Excel
+              to...
+            </p>
+            <button>Explore Excel</button>
+          </div>
+
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          class="tab-pane fade"
+          id="nav-web"
+          role="tabpanel"
+          aria-labelledby="nav-web-tab"
+        >
+          <div>
+            <h3>Build websites and applications with Web Development</h3>
+            <p>
+              The world of web development is as wide as the internet itself.
+              Much of our social and vocational lives play out on the internet,
+              which prompts new industries aimed at creating, managing, and
+              debugging the websites and applications that we increasingly rely
+              on.
+            </p>
+            <button>Explore Web Development</button>
+          </div>
+
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="nav-js"
+          role="tabpanel"
+          aria-labelledby="nav-js-tab"
+        >
+          <div>
+            <h3>Grow your software development skills with JavaScript</h3>
+            <p>
+              JavaScript is a text-based computer programming language used to
+              make dynamic web pages. A must-learn for aspiring web developers
+              or programmers, JavaScript can be used for features like image
+              carousels, displaying countdowns and timers, and playing media on
+              a webpage. With JavaScript online classes, you can learn to
+              builg...
+            </p>
+            <button>Explore JavaScript</button>
+          </div>
+
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="nav-ds"
+          role="tabpanel"
+          aria-labelledby="nav-ds-tab"
+        >
+          <div>
+            <h3>Lead data-driven decisions with Data Science</h3>
+            <p>
+              Data science application is an in-demand skill in many industries
+              worldwide — including finance, transportation, education,
+              manufacturing, human resources, and banking. Explore data science
+              courses with Python, statistics, machine learning, and more to
+              grow your knowledge. Get data science training if you’re...
+            </p>
+
+            <button>Explore Data Science</button>
+          </div>
+
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-aws"
+          role="tabpanel"
+          aria-labelledby="nav-aws-tab"
+        >
+          <div>
+            <h3>Become an expert in cloud computing with AWS Certification</h3>
+            <p>
+              Prep for your AWS certification with an AWS course on Udemy. Learn
+              the fundamentals of AWS such as working with a serverless
+              platform, the various frameworks, security and more. With these
+              courses, you’ll build the valuable skills you need to implement
+              cloud initiatives — and open up new career opportunities. If...
+            </p>
+            <button>Explore AWS Certification</button>
+          </div>
+
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-drawing"
+          role="tabpanel"
+          aria-labelledby="nav-drawing-tab"
+        >
+          <div>
+            <h3>Expand your creative skillset with Drawing</h3>
+            <p>
+              Take one of Udemy’s range of Python courses and learn how to code
+              using this incredibly useful language. Its simple syntax and
+              readability makes Python perfect for Flask, Django, data science,
+              and machine learning. You’ll learn how to build everything from
+              games to sites to apps. Choose from a range of courses that
+              will...
+            </p>
+
+            <button>Explore Drawing</button>
+          </div>
+          <br /><br />
+
+          <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container con3">
+        <div class="row  grid-items">
+            <div class="col">
+                <div class="d-flex fl">
+                    <i class="fa fa-play"></i>
+                    <h5>Learn in-demand skills with over 213,000 video courses</h5>
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-flex fl">
+                    <i class="fa fa-star"></i>
+                    <h5>Choose courses taught by real-world experts</h5>
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-flex fl">
+                    <i class="fa fa-link"></i>
+                    <h5>Learn at your own pace, with lifetime access on mobile and desktop</h5>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+<br><br>
+      <div class="container">
+        <h2>Students are viewing</h2>
+        
+        <div class="container">
+            <div class="row gx-5 gy-5">
+              <div class="col">
+                <img src="assets/py2.jpg" alt="" />
+                <h5>
+                  Learn Python: <br />
+                  The Complete Python Programming Course
+                </h5>
+                <p>Avinash Jain, The Codex</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(3,930)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+                <p
+                style="
+                  background-color: khaki;
+                  padding: 3px;
+                  width: fit-content;
+                "
+              >
+                Bestseller
+              </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py3.jpg" alt="" />
+                <h5>
+                  Learn Python for Data Analysis <br />
+                  and Visualization
+                </h5>
+                <p>Jose Portilla</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(18,456)</span>
+                </div>
+                <p>
+                  ₦3,900 <span><del>₦29,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py1.jpg" alt="" />
+                <h5>
+                  Python for Beginners: <br />
+                  Learn Programming from Scratch
+                </h5>
+                <p>Edwin Diaz, Coding Faculty Solutions</p>
+                <div class="rating d-flex">
+                  <span>4.3</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,221)</span>
+                </div>
+                <p>
+                  ₦3,200 <span><del>₦14,900</del></span>
+                </p>
+                <p
+                style="
+                  background-color: khaki;
+                  padding: 3px;
+                  width: fit-content;
+                "
+              >
+                Bestseller
+              </p>
+              </div>
+
+              <div class="col">
+                <img src="assets/py4.jpg" alt="" />
+                <h5>
+                  Python From Scratch & <br />
+                  Selenium WebDriver QA Automation 2022
+                </h5>
+                <p>Admas Kinfu</p>
+                <div class="rating d-flex">
+                  <span>4.5</span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-stroke"></i>
+                  <span>(2,180)</span>
+                </div>
+                <p>
+                  ₦2,500 <span><del>₦19,900</del></span>
+                </p>
+                <p
+                  style="
+                    background-color: khaki;
+                    padding: 3px;
+                    width: fit-content;
+                  "
+                >
+                  Bestseller
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="categories">
+        <h3 class="container">Top categories</h3>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-2x-v2.jpg" alt="">
+              <p>Design</p>
+            </div>
+          
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="">
+              <p>Development</p>
+            </div>
+          
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="">
+              <p>Market</p>
+            </div>
+          
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-2x-v2.jpg" alt="">
+              <p>IT and Software</p>
+            </div>
+          
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-2x-v2.jpg" alt="">
+              <p>Personal Development</p>
+            </div>
+          
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-2x-v2.jpg" alt="">
+              <p>Business</p>
+            </div>
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-2x-v2.jpg" alt="">
+              <p>Photography</p>
+            </div>
+            <div class="col-3">
+              <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-2x-v2.jpg" alt="">
+              <p>Music</p>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="container featured ">
+        <h2>Featured topics by category</h2>
+
+        <div class="d-flex justify-content-between">
+            <div class="item">
+                <h4>Development</h4>
+                <div>
+                    <a href="#">Python</a>
+                    <p>36,354,994 students</p>
+                </div>
+                <div>
+                    <a href="#">Web Development</a>
+                    <p>11,415,615 students</p>
+                </div>
+                <div>
+                    <a href="#">Machine Learning</a>
+                    <p>7,070,015 students</p>
+                    <button>Explore more topics</button>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <h4>Business</h4>
+                <div>
+                    <a href="#">Financial Analysis</a>
+                    <p>1,195,282 students</p>
+                </div>
+                <div>
+                    <a href="#">SQL</a>
+                    <p>5,977,561  students</p>
+                </div>
+                <div>
+                    <a href="#">PMP</a>
+                    <p>1,733,398 students</p>
+                </div>
+            </div>
+            <div class="item">
+                <h4>IT & Software</h4>
+                <div>
+                    <a href="#">AWS Certification</a>
+                    <p>6,078,244 students</p>
+                </div>
+                <div>
+                    <a href="#">Ethical Hacking</a>
+                    <p>10,931,066 students</p>
+                </div>
+                <div>
+                    <a href="#">Cyber Security</a>
+                    <p>3,998,037 students</p>
+            
+                </div>
+            </div>
+            <div class="item">
+                <h4>Design</h4>
+                <div>
+                    <a href="#">Photoshop</a>
+                    <p>10,909,736 students</p>
+                </div>
+                <div>
+                    <a href="#">Graphic Design</a>
+                    <p>3,381,0525 students</p>
+                </div>
+                <div>
+                    <a href="#">Drawing</a>
+                    <p>2,410,849  students</p>
+            
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="text-center p-5">
+        <h3>Trusted by over 13,400 great teams</h3>
+        <p>Leading companies use the same courses to help employees keep their skills fresh.</p>
+      </div>
+
+      <div>
+
+
+        <ul class="partner-logos">
+          <li class="partner-logos-item1"><img alt="Nasdaq logo" width="115" height="44" src="https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"></li>
+          <li class="partner-logos-item-2"><img alt="Volkswagen logo" width="44" height="44" src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"></li>
+          <li class="partner-logos-item-3"><img alt="Box logo" width="67" height="44" src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg"></li>
+          <li class="partner-logos-item-4"><img alt="NetApp logo" width="115" height="44" src="https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"></li>
+          <li class="partner-logos-item-5"><img alt="Eventbrite logo" width="115" height="44" src="https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"></li>
+          <li class="partner-logos-item-6"><img alt="Tata Consultancy Services logo" width="115" height="44" src="https://s.udemycdn.com/partner-logos/v4/tcs-dark.svg"></li>
+        </ul>
+      </div>
+      <br><br>
+
+      <div class="d-flex justify-content-around flex" >
+        
+            <div>
+              <div class="d-flex align-items-center gx-3">
+                <img src="assets/udemy-logo.png" alt="" width="100px">
+                <span style="color:#5624D0; font-size:25px;">business</span>
+            
+              </div>
+              <h1>Upskill your team with Udemy Business</h1>
+                <ul>
+                  <li>Unlimited access to 19,000+ top Udemy courses, anytime, anywhere
+                  </li>
+                  <li>International course collection in 14 languages</li>
+                  <li>Top certifications in tech and business</li>
+                </ul>
+                <button class="btn btn-dark text-light">
+                  Get Udemy Business
+                </button>
+                <button style="width: 150px; padding: 5px;">Learn More</button>
+              </div>
+  <br>
+          <img src="https://s.udemycdn.com/home/non-student-cta/UB_Promo_800x800.jpg" alt="" width="500px" height="500px">
+        </div>
+     
+        <div class="d-flex justify-content-around flex" style="align-items:center;">
+          <img src="https://s.udemycdn.com/home/non-student-cta/instructor-mobile-v3.jpg" alt="" width="500px" height="500px" style="object-fit: center;">
+          <div>
+            <div>
+              <h1>Become an instructor</h1>
+              <p>Instructors from around the world teach millions of students on Udemy. <br> We provide the tools and skills to teach what you love.</p>
+            </div>
+            
+              <button class="btn btn-dark text-light">
+                Start teaching today
+              </button>
+            </div>
+       
+      </div>
+
+      <div class="footer">
+       
+         
+          <div class="footer-flex1 d-flex justify-content-between">
+            <div class="flex-items">
+              <a href="#">Udemy Business</a>
+              <a href="#">Teach on Udemy</a>
+              <a href="#">Get the app</a>
+              <a href="#">About us</a>
+              <a href="#">Contact us</a>
+            </div>
+            <div class="flex-items">
+              <a href="#">Careers</a>
+              <a href="#">Blogs</a>
+              <a href="#">Help and Support</a>
+              <a href="#">Affiliate</a>
+              <a href="#">Investors</a>
+            </div>
+            <div class="flex-items">
+              <a href="#">Terms</a>
+              <a href="#">Privacy policy</a>
+              <a href="#">Cookie settings</a>
+              <a href="#">Sitemap</a>
+              <a href="#">Accessibility statement</a>
+            </div>
+            <div class="d-flex text-light text-center" style="border: 1px solid white; height: fit-content; padding: 5px;">
+              <i class="fa fa-globe " style="border: none;"></i>
+              <span style="margin-top: 5px;">
+              English
+              </span>
+            </div>
+          </div>
+            <br>
+          <div class = "footer-flex2 d-flex justify-content-between text-light">
+            <img src="assets/logo.png" alt="" width="100px">
+            &copy; 2022 Udemy, Inc.
+          </div>
+      </div>
+  </body>
+</html>
